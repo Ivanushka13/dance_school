@@ -1,0 +1,144 @@
+.schedule-content {
+    min-height: calc(100vh - 60px);
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e7eb 100%);
+    padding: 2rem;
+}
+
+.schedule-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 3rem;
+}
+
+/* Секция календаря */
+.calendar-wrapper {
+    position: sticky;
+    top: 2rem;
+    background: white;
+    border-radius: 20px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    height: fit-content;
+}
+
+/* Секция занятий */
+.lessons-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.lessons-header {
+    background: white;
+    border-radius: 20px;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1rem;
+}
+
+.lessons-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+.lessons-date {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.lessons-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.no-lessons {
+    background: white;
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.no-lessons-icon {
+    font-size: 3.5rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.no-lessons-title {
+    font-size: 1.25rem;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.no-lessons-text {
+    color: #666;
+    font-size: 1rem;
+}
+
+/* Стили для календаря Material UI */
+.custom-calendar {
+    width: 100%;
+}
+
+.custom-calendar .MuiPickersCalendarHeader-root {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    padding: 0 0.5rem;
+}
+
+.custom-calendar .MuiPickersDay-root {
+    width: 40px;
+    height: 40px;
+    font-size: 0.9rem;
+    margin: 0.25rem;
+    border-radius: 12px;
+}
+
+.custom-calendar .MuiTypography-caption {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+}
+
+.custom-calendar .Mui-selected {
+    background-color: #1a1a1a !important;
+    color: white !important;
+}
+
+.custom-calendar .MuiPickersDay-today {
+    border: 2px solid #1a1a1a !important;
+    color: #1a1a1a;
+}
+
+.custom-calendar .MuiPickersDay-root:hover {
+    background-color: rgba(26, 26, 26, 0.1);
+}
+
+/* Адаптивный дизайн */
+@media (max-width: 1200px) {
+    .schedule-container {
+        grid-template-columns: 320px 1fr;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .schedule-container {
+        grid-template-columns: 1fr;
+    }
+
+    .calendar-wrapper {
+        position: relative;
+        top: 0;
+    }
+
+    .schedule-content {
+        padding: 1rem;
+    }
+}
