@@ -79,18 +79,18 @@ const LoginPage = () => {
                             </button>
                         </form>
                         <div className="links">
-                            <button className="link-button">Забыли пароль?</button>
+                            {/*<button className="link-button">Забыли пароль?</button>*/}
                             <a href="/signup" className="sign-up-link">Зарегистрироваться</a>
                         </div>
-                        <div className="test-credentials">
-                            <div className="test-credentials-title">Тестовые учетные данные:</div>
-                            <div className="test-credentials-item">
-                                Преподаватель: teacher@dance.com / teacher123
-                            </div>
-                            <div className="test-credentials-item">
-                                Ученик: student@dance.com / student123
-                            </div>
-                        </div>
+                        {/*<div className="test-credentials">*/}
+                        {/*    <div className="test-credentials-title">Тестовые учетные данные:</div>*/}
+                        {/*    <div className="test-credentials-item">*/}
+                        {/*        Преподаватель: teacher@dance.com / teacher123*/}
+                        {/*    </div>*/}
+                        {/*    <div className="test-credentials-item">*/}
+                        {/*        Ученик: student@dance.com / student123*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
                     </div>
                 </div>
             </div>

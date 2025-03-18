@@ -93,7 +93,7 @@ const Requests = () => {
             lastName: "Сидоров",
             middleName: "Иванович",
             phoneNumber: "+79993456789",
-            photo: "https://randomuser.me/api/portraits/men/3.jpg",
+            photo: "https://randomuser.me/api/portraits/men/34.jpg",
             role: "Student",
             description: "Занимается бальными танцами уже несколько лет.",
             level: "Advanced"
@@ -117,7 +117,7 @@ const Requests = () => {
             lastName: "Козлов",
             middleName: "Петрович",
             phoneNumber: "+79995678901",
-            photo: "https://randomuser.me/api/portraits/men/5.jpg",
+            photo: "https://randomuser.me/api/portraits/men/36.jpg",
             role: "Student",
             description: "Начинающий танцор, интересуется джазом.",
             level: "Beginner"
@@ -129,7 +129,7 @@ const Requests = () => {
             lastName: "Волкова",
             middleName: "Андреевна",
             phoneNumber: "+79996789012",
-            photo: "https://randomuser.me/api/portraits/women/6.jpg",
+            photo: "https://randomuser.me/api/portraits/women/32.jpg",
             role: "Student",
             description: "Занимается современными танцами.",
             level: "Intermediate"
@@ -141,19 +141,19 @@ const Requests = () => {
             lastName: "Морозов",
             middleName: "Сергеевич",
             phoneNumber: "+79997890123",
-            photo: "https://randomuser.me/api/portraits/men/7.jpg",
+            photo: "https://randomuser.me/api/portraits/men/88.jpg",
             role: "Student",
             description: "Увлекается брейк-дансом.",
             level: "Advanced"
         },
         {
             userId: "3l4m5n6o-7p8q-9r0s-1t2u-3v4w5x6y7z8a",
-            email: "kuznetsova.elena@edu.hse.ru",
-            firstName: "Елена",
-            lastName: "Кузнецова",
-            middleName: "Александровна",
+            email: "anna.smirnova@example.com",
+            firstName: "Анна",
+            lastName: "Смирнова",
+            middleName: "Ивановна",
             phoneNumber: "+79998901234",
-            photo: "https://randomuser.me/api/portraits/women/8.jpg",
+            photo: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300",
             role: "Student",
             description: "Начинающая танцовщица, изучает основы хореографии.",
             level: "Beginner"
